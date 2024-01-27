@@ -5,7 +5,7 @@ use yew::prelude::*;
 
 #[derive(Clone, Routable, PartialEq)]
 enum Route {
-    #[at("/")]
+    #[at("/koalarosadaprivacy")]
     Home,
     #[at("/privacy/*path")]
     Privacy { path: String },

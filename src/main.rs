@@ -16,7 +16,10 @@ enum Route {
 
 fn switch(routes: Route) -> Html {
     match routes {
-        Route::Home => html! { <h1>{ "Home Page" }</h1> },
+        Route::Home => html! { <><h1>{ "Privacy Policies:" }</h1>
+            <Link<Route> to={Route::Privacy{path:"Drop_Craft".to_string()}}>{"Drop Craft"}</Link<Route>>
+            </>
+        },
         Route::Privacy { path } => privacy_page::get_privacy_page(path.replace("_", " ").as_str()),
 
         Route::NotFound => html! { <h1>{ "404. Page Not Found" }</h1> },

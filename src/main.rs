@@ -5,9 +5,9 @@ use yew::prelude::*;
 
 #[derive(Clone, Routable, PartialEq)]
 enum Route {
-    #[at("/koalarosadaprivacy")]
+    #[at("/")]
     Home,
-    #[at("/koalarosadaprivacy/*path")]
+    #[at("/*path")]
     Privacy { path: String },
     #[not_found]
     #[at("/404")]
@@ -27,9 +27,9 @@ fn switch(routes: Route) -> Html {
 fn app() -> Html {
     // privacy_page::get_privacy_page("Drop Craft")
     html! {
-        <BrowserRouter>
+        <HashRouter>
             <Switch<Route> render={switch} />
-        </BrowserRouter>
+        </HashRouter>
     }
 }
 

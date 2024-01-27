@@ -42,6 +42,20 @@ In connection with, or during negotiations of, any merger, sale of company asset
 Between and among Drop Craft and our current and future parents, affiliates, subsidiaries, and other companies under common control and ownership; and
 With your consent or at your direction.
 ")}</p>
+        <h2>{"4. Advertising and Analytics Services Provided by Others"}</h2>
+        <p>{format!("We may allow others to provide analytics services and serve advertisements on our behalf across the web and in mobile applications. These entities may use cookies, web beacons, device identifiers, and other technologies to collect information about your use of the Game and other websites and applications, including your IP address, web browser, mobile network information, pages viewed, time spent on pages or in apps, links clicked, and conversion information. This information may be used by {name} and others to, among other things, analyze and track data, determine the popularity of certain content, deliver advertising and content targeted to your interests on our services and other websites, and better understand your online activity.")}</p>
+        <h2>{"5. Your Rights"}</h2>
+        <p>{"You have the right to access, correct, or delete your personal information held by us. You also have the right to object to or restrict certain processing of your personal information. If you wish to exercise any of these rights, please contact us at: "} <b>{"koalarosada@gmail.com"}</b></p>
+        <h2>{"6. Data Retention"}</h2>
+        <p>{"We retain your personal information for as long as necessary to provide you with the Game and for legitimate and essential business purposes, such as maintaining the performance of the Game, making data-driven business decisions, complying with our legal obligations, and resolving disputes."}</p>
+        <h2>{"7. Transfer of Information to Other Countries"}</h2>
+        <p>{"Information collected through the Game may be stored and processed in any country where we or our service providers have facilities. By using the Game, you consent to the transfer of information to countries outside of your country of residence, which may have data protection rules that are different from those of your country."}</p>
+        <h2>{"8. Children's Privacy"}</h2>
+        <p>{"The Game is not intended for individuals under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that we have inadvertently received personal information from a child under the age of 13, we will delete such information from our records."}</p>
+        <h2>{"9. Changes to this Privacy Policy"}</h2>
+        <p>{"We may update this Privacy Policy from time to time in order to reflect, for example, changes to our practices or for other operational, legal, or regulatory reasons. We will notify you of any changes by posting the new Privacy Policy on this page."}</p>
+        <h2>{"10. Contact Us"}</h2>
+        <p>{"If you have any questions about this Privacy Policy, please contact us at: "} <b>{"koalarosada@gmail.com"}</b></p>
         </>
     }
 }
